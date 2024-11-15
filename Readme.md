@@ -6,6 +6,6 @@
 
 ## /SendMessage - (Text, UserId, ChatId) -> code 200
 
-## /GetMessagesInChat - (Id (ChatId)) -> [{Id, Text, UserId, ChatId}]
+## /GetMessagesInChat - (Id (ChatId)) -> [{Id, Text, UserId, ChatId}, ...]
 
 ## /GetUser - (Id (UserId)) -> {Id, Secret, Name, Image, Address}
